@@ -1,0 +1,6 @@
+{
+  "contractAddr": "0x0B718C6284b83b8d8c5a756397FA6A84552523fD",
+  "ganacheRPC": "http://127.0.0.1:7545",
+  "validDocument": "Hello world",
+  "invalidDocument": "wrong document"
+}

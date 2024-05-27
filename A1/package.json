@@ -1,0 +1,17 @@
+{
+  "name": "truffle-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "truffle build && truffle migrate",
+    "test:good": "node index.js good",
+    "test:bad": "node index.js bad"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "web3": "^4.8.0"
+  }
+}
