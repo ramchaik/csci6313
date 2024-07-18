@@ -1,0 +1,6 @@
+{
+  "contractAddr": "0xED13d2E73232FD0A588708bCbB62D0e70d118510",
+  "ganacheRPC": "http://127.0.0.1:8545",
+  "MFSPath": "/files",
+  "FilePrefix": "vaibahv_"
+}

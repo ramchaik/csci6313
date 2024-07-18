@@ -1,0 +1,19 @@
+{
+  "name": "a3-ipfs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "deploy:contract": "truffle build && truffle migrate",
+    "start:ipfs": "ipfs daemon --migrate --enable-gc --unrestricted-api --enable-pubsub-experiment",
+    "start:app": "node index.mjs"
+  },
+  "keywords": [],
+  "author": "Vaibhav Singh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ipfs-http-client": "^60.0.1",
+    "web3": "^1.10.0"
+  },
+  "type": "module"
+}
